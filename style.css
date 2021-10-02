@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*   background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%); */
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://miro.medium.com/max/2000/1*jbpszmLbkh-mSwbohV4r0w.jpeg");
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: #d8bfd8;
+  color: #1c1c1c;
+  margin: 74px;
+  border-radius: 40px;
+  box-shadow: 6px 6px 6px #a076e9;
+  padding: 74px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 30px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.titulo h4 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  color: black;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-subtitle {
+  list-style: none;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.redes-logo img {
+  display: inline-axis;
+  flex-direction: inline;
+  max-width: 40px;
+  max-height: 60px;
+  padding-top: 20px;
+  padding-right: 9px;
+  filter: invert(100%);
+}
+
+.projetos-item a {
+  color: #1c1c1c
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #68b7a9 96.83%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
